@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: Run Surge
-      run: surge ./ anxious-farm.surge.sh --token #{{secret.BOOTCAMP_STUDENT}}
+      run: surge ./ anxious-farm.surge.sh --token #{{secrets.BOOTCAMP_STUDENT}}
